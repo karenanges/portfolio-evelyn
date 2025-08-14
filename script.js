@@ -123,7 +123,7 @@ window.addEventListener('scroll', () => {
 
 // Carrossel girando infinitamentee
 const carrosselContainer = document.querySelector('.carousel-track');
-const speed = 1; // velocidade do carrossel
+const speed = 1; 
 
 const cards = Array.from(carrosselContainer.children);
 cards.forEach(card => {
@@ -137,7 +137,7 @@ function animateCarrossel() {
   scrollAmount += speed;
 
   if (scrollAmount >= carrosselContainer.scrollWidth / 2) {
-    // quando chegar na metade, reseta para o início
+    
     scrollAmount = 0;
   }
 
@@ -184,3 +184,4 @@ form.addEventListener('submit', (e) => {
   }, 3000);
 
 });
+
