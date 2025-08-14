@@ -121,11 +121,10 @@ window.addEventListener('scroll', () => {
   homeImg.style.transform = `translateY(${scrollPos * 0.2}px) scale(1)`;
 });
 
-// Carrossel girando infinitamente
+// Carrossel girando infinitamentee
 const carrosselContainer = document.querySelector('.carousel-track');
 const speed = 1; // velocidade do carrossel
 
-// duplicar os cards para loop infinito
 const cards = Array.from(carrosselContainer.children);
 cards.forEach(card => {
   const clone = card.cloneNode(true);
@@ -147,6 +146,7 @@ function animateCarrossel() {
 }
 
 animateCarrossel();
+
 //anim dos cards dos projetos
 document.querySelectorAll('.carrossel-projetos').forEach(card => {
   card.addEventListener('mouseenter', () => {
@@ -182,4 +182,5 @@ form.addEventListener('submit', (e) => {
   setTimeout(() => {
     successMsg.remove();
   }, 3000);
+
 });
