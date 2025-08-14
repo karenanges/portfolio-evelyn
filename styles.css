@@ -16,15 +16,6 @@ body {
 
 
 
-
-
-
-
-
-
-
-
-
 .navbar {
   display: flex;
   justify-content: space-between;
@@ -83,17 +74,6 @@ body {
 
 
 
-
-
-
-
-
-
-
-
-
-
-
 section {
   position: relative;
   display: flex;
@@ -124,13 +104,6 @@ section::before {
   border: 2px solid rgba(46, 204, 113, 0.4);
   pointer-events: none;
 }
-
-
-
-
-
-
-
 
 
 
@@ -205,10 +178,6 @@ section::before {
 
 
 
-
-
-
-
 .sobre-section {
   flex-direction: row;
   gap: 40px;
@@ -251,16 +220,6 @@ section::before {
   background: #27ae60;
   transform: scale(1.05);
 }
-
-
-
-
-
-
-
-
-
-
 
 
 
@@ -373,26 +332,6 @@ font-size: 2rem;
 }
 
 
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
 .contato-section {
   display: flex;
   flex-direction: column;
@@ -495,16 +434,6 @@ font-size: 2rem;
 }
 
 
-
-
-
-
-
-
-
-
-
-
 footer {
   text-align: center;
   padding: 20px;
@@ -512,6 +441,7 @@ footer {
   color: #ccc;
   font-size: 1rem;
 }
+
 
 
 
